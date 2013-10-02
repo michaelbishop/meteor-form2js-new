@@ -5,7 +5,8 @@ Package.describe({
 Package.on_use(function (api) {
     api.use('jquery', 'client');
     
-    api.export && api.export('form2js', 'js2form'); 
+    api.export && api.export('form2js');
+    api.export && api.export('js2form'); 
 
     api.add_files([
         "lib/form2js/src/form2js.js",
